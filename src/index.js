@@ -1,7 +1,12 @@
-import './one';
-import './addImage';
+import React from 'react';
+import { render } from 'react-dom';
 
-import './css/reset.css';
-import './css/background.css'
+import App from './components/app';
+import './index.scss';
+import './demo';
 
-document.write("Hello world");
+render(<App title="Webpack 4 Demo" />, document.querySelector('#app'));
+
+if (module.hot) {
+    module.hot.accept();
+}
