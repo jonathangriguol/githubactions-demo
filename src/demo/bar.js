@@ -1,5 +1,5 @@
-function bar() {
-    console.info('hello from bar!');
+function bar () {
+  console.info('hello from bar!')
 }
 
-export default bar;
+export default bar

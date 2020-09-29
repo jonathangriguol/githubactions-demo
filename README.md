@@ -2,8 +2,7 @@
 
 > Demo project to start using and experiment with [Webpack 4](https://webpack.js.org/)
 
-[![GitHub license](https://img.shields.io/github/license/carloluis/webpack-demo.svg)](https://github.com/carloluis/webpack-demo/blob/master/LICENSE)
-[![David](https://img.shields.io/david/dev/carloluis/webpack-demo.svg)](https://david-dm.org/carloluis/webpack-demo?type=dev)
+[![GitHub Super-Linter](https://github.com/jonathangriguol/githubactions-demo/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## Start
 
