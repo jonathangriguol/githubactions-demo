@@ -1,5 +1,5 @@
-function foo () {
-  console.info('hello from foo!')
+function foo() {
+    console.info('hello from foo!');
 }
 
-export default foo
+export default foo;

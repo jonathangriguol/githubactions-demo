@@ -1,12 +1,12 @@
-import React from 'react'
-import { render } from 'react-dom'
+import React from 'react';
+import { render } from 'react-dom';
 
-import App from './components/app'
-import './index.scss'
-import './demo'
+import App from './components/app';
+import './index.scss';
+import './demo';
 
-render(<App title='Webpack 4 Demo' />, document.querySelector('#app'))
+render(<App title="Webpack 4 Demo" />, document.querySelector('#app'));
 
 if (module.hot) {
-  module.hot.accept()
+    module.hot.accept();
 }
