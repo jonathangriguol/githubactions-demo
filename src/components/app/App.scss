@@ -10,19 +10,19 @@ $screensize-range: 1020;
   margin: 0 auto;
 
   & > h1 {
-      @include responsive-font($min-fontsize, $fontsize-range, $min-screensize, $screensize-range);
-      background: $darkblue;
-      color: $somegray;
+    @include responsive-font($min-fontsize, $fontsize-range, $min-screensize, $screensize-range);
+    background: $darkblue;
+    color: $somegray;
 
-      &::selection {
-          background: $somegray;
-          color: $darkblue;
-      }
+    &::selection {
+      background: $somegray;
+      color: $darkblue;
+    }
   }
 }
 
 @media screen and (min-width: $breakpoint) {
   .container {
-      max-width: 80%;
+    max-width: 80%;
   }
 }

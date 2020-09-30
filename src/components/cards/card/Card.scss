@@ -15,7 +15,7 @@
     transform: scale(1.02);
   }
 
-  &>h2 {
+  & > h2 {
     @include responsive-font(16px, 20);
       text-transform: uppercase;
       letter-spacing: 4px;

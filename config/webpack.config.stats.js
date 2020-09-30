@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const config = require('./webpack.config.prod');
 
